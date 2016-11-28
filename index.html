@@ -26,18 +26,91 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 	<head>
 		<title>Code Challenge #5</title>
 		<style>
+		@font-face {
+    font-family: 'cantarellbold';
+    src: url('fonts/cantarell-bold-webfont.woff2') format('woff2'),
+         url('fonts/cantarell-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cantarellboldoblique';
+    src: url('fonts/cantarell-boldoblique-webfont.woff2') format('woff2'),
+         url('fonts/cantarell-boldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cantarelloblique';
+    src: url('fonts/cantarell-oblique-webfont.woff2') format('woff2'),
+         url('fonts/cantarell-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('fonts/cantarell-regular-webfont.woff2') format('woff2'),
+         url('fonts/cantarell-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('fonts/chunkfive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 			body {
 				margin: 0;
 				padding: 0;
+				background-color: blue;
 			}
 			header {
 				padding: 50px 0;
 			}
 			header h1 {
 				text-align: center;
+				color: white;
 			}
 			section {
 				padding: 25px 0;
+			}
+			h2,h3,h4,h5,h6 {
+				font-family: 'chunkfiveroman', serif;
+				font-style: normal;
+				color: white;
+				margin: 1%;
+				letter-spacing: .1em;
+
+			}
+			p {
+				font-family: 'cantarellregular', sans-serif;
+				font-style: normal;
+				letter-spacing: .5em;
+				line-height: 2em;
+				padding: 5%;
 			}
 		</style>
 	</head>
@@ -47,6 +120,21 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 		</header>
 		<section>
 			<div class="container">
+				<h2>Pokemon Go is dead</h2>
+				<p>No one is playing it. I love pizza.</p>
+				<h3>Trump is is president</h3>
+				<p>Popular vote is how he was elected.</p>
+				<h4>The Salem Courtroom</h4>
+				<p>As I walked in the courtroom and sat in the front row. The three judges all had white as salt hair. I was brought back to reality by the banging of the judges’ hammer. This was when the accused witches were escorted into the courtroom. The accused witches walked in with smiles on their faces.</p>
+				<h5>My Time in Jail</h5>
+				<p>It was the begin of winter in Salem. Usually at this time every year I would be selling my produce. But I was serving my false conviction in old Salem jail. That Reverend Newcomb never did like me, when I settled down oh about 10 years ago.  He also convicted my wife.
+
+Let me describe my living predicament. I was wet and freezing and with no bed to speak of. The only light I saw was from the small unreachable bars over my head. I sounds I heard were the constant roar of the North river. It did not help that I was tortured for questions.
+
+My wife and I were convicted of witchcraft. We were spilt up and locked away in the worst part of Salem Jail. The dungeon had no bars, just stone walls and iron doors with big locks on them. I was shackle onto the wall. I never saw my wife in the jail.    
+</p>
+				<h6>Ionic Bonds</h6>
+				<p>Ionic bonds are formed by a metal and a non-metal</p>
 			</div>
 		</section>
 		<footer>
